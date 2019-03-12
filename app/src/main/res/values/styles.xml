@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="MyTheme.Male">
+        <item name="custom_background_color">#FFA8D2F7</item>
+        <item name="custom_bar_color">#FF3263D6</item>
+        <item name="custom_title_img">@drawable/logo_boy</item>
+        <item name="custom_goal_img">@drawable/goal_boy</item>
+        <item name="custom_dialog_color">#FF33B5E5</item>
+        <item name="custom_second_dialog_color">#FF0099CC</item>
+        <item name="custom_text_color">#FF232CD9</item>
+        <item name="custom_reward_bar"></item>
+    </style>
+
+    <style name="MyTheme.Female">
+        <item name="custom_background_color">#FBEDB0D0</item>
+        <item name="custom_bar_color">#e942b7</item>
+        <item name="custom_title_img">@drawable/logo_girl</item>
+        <item name="custom_goal_img">@drawable/goal_girl</item>
+        <item name="custom_dialog_color">#fbe79cc3</item>
+        <item name="custom_second_dialog_color">#fbc985aa</item>
+        <item name="custom_text_color">#FFE0276B</item>
+        <item name="custom_reward_bar"></item>
+    </style>
+</resources>
